@@ -30,12 +30,10 @@ o	When order type is a limit order, symbol, qty, price and stop price must be su
 o	When order type is a market order, symbol and qty are required
 
 3.	Additional requirements
-a.	Pressing send should
-i.	Add a 2 second delay when pressing send to populate the grid, show a progress indicator
-ii.	take the fields supplied and populate the data grid below the splitter
-b.	Show a tooltip on the comment cell column showing its contents
-c.	Every 10th order submitted should fail – display an error to the user indicating a generic message saying the “Order time has elapsed”, with a single ‘Ok’ option
-d.	The ‘Last Updated Time’ updates when the order is submitted
-e.	The Action column should render a
-i.	Green background with white text when Action == ‘Buy’
-ii.	Red with white text when Action == ‘Sell’
+-	Pressing send should;
+-	Add a 2 second delay when pressing send to populate the grid, show a progress indicator
+-	take the fields supplied and populate the data grid below the splitter
+-	Show a tooltip on the comment cell column showing its contents
+-	Every 10th order submitted should fail – display an error to the user indicating a generic message saying the “Order time has elapsed”, with a single ‘Ok’ option
+-	The ‘Last Updated Time’ updates when the order is submitted
+-	The Action column should render a Green background with white text when Action == ‘Buy’ Red with white text when Action == ‘Sell’
