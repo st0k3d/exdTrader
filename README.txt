@@ -1,5 +1,5 @@
 
-## THANK YOU FOR TRYING MY IMPLEMENTATION OF EXD TRADER
+## EXD TRADER
 
 ## Steps To Run:
 1. 'npm i' to install dependencies
@@ -22,9 +22,6 @@
     ### If you do not wish to use this functionality please set 'USE_LOCAL_STORAGE = false' in 'appConstants.ts' file
 
 5. For purposes of this exercise and to avoid the possiblity of errors I did not implement Webpack for bundling or SCSS (css). In a real world environment I would have done so.
-
-6. I did not use Redux in this application. I have not used it in the past, and was able to complete the assignment without it.
-
 
 ##### For any questions, comments, or issues please reach out to me directly. Thank you!
 
